@@ -6,7 +6,7 @@ GraphicsMagick powered, multi threaded image resizing middleware.
 ## Installation
 
 ```sh
-npm install --save image-resize-middleware
+npm install --save image-resizer-middleware
 ```
 
 
@@ -15,7 +15,7 @@ npm install --save image-resize-middleware
 ```js
 const path = require('path')
 const express = require('express')
-const imageResizer = require('image-resize-middleware')
+const imageResizer = require('image-resizer-middleware')
 const port = 3000
 const publicDirectory = path.join(__dirname, 'public')
 
